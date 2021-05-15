@@ -1,0 +1,60 @@
+* {
+    background: #20B2AA;
+    
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background: 	#f5f5f5;
+    padding: 1rem 4rem;
+    margin: 5% 25%;
+    border-radius: 5px;
+}
+
+#form input {
+   background: #FFF; 
+   margin-bottom: 10px;
+   height: 30px;
+   border-radius: 5px;
+   border-color: #5555;
+}
+
+#form h1 {
+    background: #f5f5f5;
+}
+
+#form label {
+    background: #f5f5f5;
+}
+
+#form button {
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: #5555;
+
+}
+
+#form button:hover {
+    background-color: #FF4500;
+  }
+
+
+  #form button:last-child {
+    margin-top: 20px;
+  }
+
+  div #lembrarSenha {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: #f5f5f5;
+
+  }
+
+  div #lembrarSenha label{
+      margin-top: -4px;
+  }
